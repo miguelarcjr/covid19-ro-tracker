@@ -1,0 +1,43 @@
+{
+  "name": "open-delivery",
+  "version": "1.0.0",
+  "description": "A open source delivery.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "bundle": "webpack -w",
+    "server": "webpack-dev-server -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelarcjr/open-delivery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miguelarcjr/open-delivery/issues"
+  },
+  "homepage": "https://github.com/miguelarcjr/open-delivery#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.2",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^4.2.0",
+    "nodemon": "^2.0.3",
+    "style-loader": "^1.1.4",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chart.js": "^2.9.3",
+    "core-js": "^3.6.5",
+    "moment": "^2.24.0",
+    "regenerator-runtime": "^0.13.5"
+  }
+}
