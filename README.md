@@ -1,4 +1,4 @@
-# open-delivery
+# Covid-19 Rondônia Tracker
 A open source delivery.
 
 Authors:
